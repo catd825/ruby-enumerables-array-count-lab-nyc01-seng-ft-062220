@@ -2,7 +2,7 @@ def count_strings(array_1)
   # Return the total number of strings in the provided array using the count enumerable
 
   array.count do |num|
-    if num.class == String
+    num.class == String
   end
  end
 end
